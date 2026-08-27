@@ -1,3 +1,6 @@
+- run: echo "SUPABASE_URL=$SUPABASE_URL"
+- run: echo "BREVO_SENDER_EMAIL=$BREVO_SENDER_EMAIL"
+
 name: Enviar porção diária
 
 on:
@@ -26,4 +29,7 @@ jobs:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_SENDER_EMAIL: ${{ secrets.BREVO_SENDER_EMAIL }}
           BREVO_SENDER_NOME: "Porção Diária"
-        run: python scripts/enviar_email.py
+        - name: Rodar script de envio (debug)
+  run: |
+    set -e
+    python -u scripts/enviar_email.py
