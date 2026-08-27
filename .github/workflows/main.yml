@@ -1,3 +1,5 @@
+name: Enviar porção diária
+
 - run: echo "SUPABASE_URL=$SUPABASE_URL"
 - run: echo "BREVO_SENDER_EMAIL=$BREVO_SENDER_EMAIL"
 
