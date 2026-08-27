@@ -1,0 +1,365 @@
+Dia 1 Gênesis 1,2
+Dia 2 Gênesis 3-5
+Dia 3 Gênesis 6-9
+Dia 4 Gênesis 10,11
+Dia 5 Gênesis 12-15
+Dia 6 Gênesis 16-19
+Dia 7 Gênesis 20-22
+Dia 8 Gênesis 23-26
+Dia 9 Gênesis 27-29
+Dia 10 Gênesis 30-32
+Dia 11 Gênesis 33-36
+Dia 12 Gênesis 37-39
+Dia 13 Gênesis 40-42
+Dia 14 Gênesis 43-46
+Dia 15 Gênesis 47-50
+Dia 16 Jó 1-4
+Dia 17 Jó 5-7
+Dia 18 Jó 8-10
+Dia 19 Jó 11-13
+Dia 20 Jó 14-17
+Dia 21 Jó 18-20
+Dia 22 Jó 21-24
+Dia 23 Jó 25-27
+Dia 24 Jó 28-31
+Dia 25 Jó 32-34
+Dia 26 Jó 35-37
+Dia 27 Jó 38-42
+Dia 28 Êxodo 1-4
+Dia 29 Êxodo 5-7
+Dia 30 Êxodo 8-10
+Dia 31 Êxodo 11-13
+Dia 32 Êxodo 14-17
+Dia 33 Êxodo 18-20
+Dia 34 Êxodo 21-24
+Dia 35 Êxodo 25-27
+Dia 36 Êxodo 28-31
+Dia 37 Êxodo 32-34
+Dia 38 Êxodo 35-37
+Dia 39 Êxodo 38-40
+Dia 40 Levítico 1-4
+Dia 41 Levítico 5-7
+Dia 42 Levítico 8-10
+Dia 43 Levítico 11-13
+Dia 44 Levítico 14-16
+Dia 45 Levítico 17-19
+Dia 46 Levítico 20-22, Salmo 95
+Dia 47 Levítico 23-27
+Dia 48 Números 1-3
+Dia 49 Números 4-6
+Dia 50 Números 7-10
+Dia 51 Números 11-12:16, Salmo 90
+Dia 52 Salmo 91; Números 12-14
+Dia 53 Números 15-17
+Dia 54 Números 18-20
+Dia 55 Números 21-24
+Dia 56 Números 25-27
+Dia 57 Números 28-30
+Dia 58 Números 31-33
+Dia 59 Números 34-36
+Dia 60 Deuteronômio 1-3
+Dia 61 Deuteronômio 4-6
+Dia 62 Deuteronômio 7-9
+Dia 63 Deuteronômio 10-12
+Dia 64 Deuteronômio 13-16
+Dia 65 Deuteronômio 17-19
+Dia 66 Deuteronômio 20-22
+Dia 67 Deuteronômio 23-25
+Dia 68 Deuteronômio 26-28
+Dia 69 Deuteronômio 29-31
+Dia 70 Deuteronômio 32-34
+Dia 71 Josué 1-3
+Dia 72 Josué 4-6
+Dia 73 Josué 7-9
+Dia 74 Josué 10-12
+Dia 75 Josué 13-15
+Dia 76 Josué 16-18
+Dia 77 Josué 19-21
+Dia 78 Josué 22-24
+Dia 79 Juízes 1-4
+Dia 80 Juízes 5-8
+Dia 81 Juízes 9-12
+Dia 82 Juízes 13-15
+Dia 83 Juízes 16-18
+Dia 84 Juízes 19-21
+Dia 85 Rute 1-4
+Dia 86 1Samuel 1-4
+Dia 87 1Samuel 5-8
+Dia 88 1Samuel 9-12
+Dia 89 1Samuel 13-16
+Dia 90 1Samuel 17, 18; Salmo 23
+Dia 91 1Samuel 19:1-18; Salmo 11, 59
+Dia 92 1Samuel 19:19-24; 20,21; Salmo 56, 142
+Dia 93 1Samuel 22; Salmos 17, 34, 35
+Dia 94 Salmos 52, 109, 140
+Dia 95 Salmo 31, 64; 1Samuel 23:1-29
+Dia 96 Salmo 54,22; 1Samuel 24
+Dia 97 Salmos 63,12,57
+Dia 98 Salmos 58, 120; 1Samuel 25
+Dia 99 Salmo 141; 1Samuel 26,27
+Dia 100 1Samuel 28,29,30
+Dia 101 1Samuel 31; 2Samuel 1,2
+Dia 102 Salmo 101; 2Samuel 3,4
+Dia 103 2Samuel 5; Salmo 139; 2Samuel 6
+Dia 104 Salmos 78,96
+Dia 105 Salmos 15,24,68
+Dia 106 Salmos 132,133
+Dia 107 Salmos 106, 105
+Dia 108 2Samuel 7; Salmos 16,2
+Dia 109 Salmo 110; 2Samuel 8; Salmos 97,98
+Dia 110 Salmos 108,117,118
+Dia 111 Salmos 60,9,20
+Dia 112 2Samuel 9,10,11
+Dia 113 2Samuel 12; Salmos 6,32
+Dia 114 Salmos 33,38,39,21
+Dia 115 Salmos 40,41,51
+Dia 116 Salmos 103,104; 2Samuel 13
+Dia 117 Salmo 55; 2Samuel 14,15
+Dia 118 2Samuel 16; Salmo 7; 2Samuel 17
+Dia 119 Salmos 3,4,42
+Dia 120 Salmo 43,5,8
+Dia 121 Salmo 28,61,62
+Dia 122 Salmo 69,70,71,86
+Dia 123 Salmo 143, 2Samuel 18,19
+Dia 124 Salmos 122, 26, 27
+Dia 125 Salmos 141, 65; 2Samuel 20
+Dia 126 2Samuel 21; Salmos 29,30
+Dia 127 Salmos 131, 18; 2Samuel 22-24; 1Reis 1
+Dia 128 Salmos 72, 145; 1Reis 2
+Dia 129 1Reis 3,4,5
+Dia 130 Salmos 99,100, 127, 128
+Dia 131 Provérbios 1-4
+Dia 132 Provérbios 5-7
+Dia 133 Provérbios 8-11
+Dia 134 Provérbios 12-15
+Dia 135 Provérbios 16-19
+Dia 136 Provérbios 20-23
+Dia 137 Provérbios 24-27
+Dia 138 Provérbios 28-30
+Dia 139 Provérbios 31; Eclesiastes 1,2
+Dia 140 Eclesiastes 3-5
+Dia 141 Eclesiastes 6-8
+Dia 142 Eclesiastes 9-11
+Dia 143 Eclesiastes 12; Cantares 1,2
+Dia 144 Cantares 3-5
+Dia 145 Cantares 6-8
+Dia 146 1Reis 6-8
+Dia 147 1Reis 9-11
+Dia 148 1Reis 12-14
+Dia 149 1Reis 15-17
+Dia 150 1Reis 18-20
+Dia 151 1Reis 21,22; 2Reis 1
+Dia 152 2Reis 2-4
+Dia 153 2Reis 5-7
+Dia 154 2Reis 8-10
+Dia 155 2Reis 11-14:20
+Dia 156 Joel 1-3
+Dia 157 2Reis 14:21-25; Jonas 1-4
+Dia 158 2Reis 14:26-29; Amós 1-3
+Dia 159 Amós 4-6
+Dia 160 Amós 7-9
+Dia 161 2Reis 15-17
+Dia 162 Oséias 1-4
+Dia 163 Oséias 5-7
+Dia 164 Oséias 8-10
+Dia 165 Oséias 11-14
+Dia 166 2Reis 18; Salmo 44
+Dia 167 2Reis 19:1-34; Salmo 73
+Dia 168 2Reis 19:35-37; Salmos 92, 93
+Dia 169 Salmos 46, 75, 76
+Dia 170 Isaías 1-3
+Dia 171 Isaías 4-6
+Dia 172 Isaías 7-9
+Dia 173 Isaías 10-13
+Dia 174 Isaías 14-17
+Dia 175 Isaías 18-21
+Dia 176 Isaías 22-25
+Dia 177 Isaías 26-28
+Dia 178 Isaías 29-30
+Dia 179 Isaías 31-33
+Dia 180 Isaías 34-36
+Dia 181 Isaías 37-39
+Dia 182 Isaías 40-42
+Dia 183 Isaías 43-45
+Dia 184 Isaías 46-48
+Dia 185 Isaías 49-51
+Dia 186 Isaías 52-54
+Dia 187 Isaías 55-57
+Dia 188 Isaías 58-60
+Dia 189 Isaías 61-63
+Dia 190 Isaías 64-66
+Dia 191 Miquéias 1-4
+Dia 192 Miquéias 5-7
+Dia 193 Naum 1-3
+Dia 194 2Reis 20,21
+Dia 195 Sofonias 1-3
+Dia 196 Habacuque 1-3
+Dia 197 2Reis 22-23; Salmo 74
+Dia 198 Salmos 79, 94; 2Reis 24:1-16
+Dia 199 Salmo 88; 2Reis 24:17-20, 25
+Dia 200 Obadias; Jeremias 1,2
+Dia 201 Jeremias 3-5
+Dia 202 Jeremias 6-8
+Dia 203 Jeremias 9-12
+Dia 204 Jeremias 13; Salmos 13,14
+Dia 205 Salmos 36, 37, 49
+Dia 206 Salmos 53, 77, 89
+Dia 207 Salmo 123
+Dia 208 Salmos 25, 50, 67
+Dia 209 Salmos 102, 130
+Dia 210 Jeremias 14-16
+Dia 211 Jeremias 17-20
+Dia 212 Jeremias 21-23
+Dia 213 Jeremias 24-26
+Dia 214 Jeremias 27-29
+Dia 215 Jeremias 30-32
+Dia 216 Jeremias 33-36
+Dia 217 Jeremias 37-39
+Dia 218 Jeremias 40-42
+Dia 219 Jeremias 43-46
+Dia 220 Jeremias 47-49
+Dia 221 Jeremias 50-52
+Dia 222 Lamentações 1-5
+Dia 223 1Crônicas 1-3
+Dia 224 1Crônicas 4-6
+Dia 225 1Crônicas 7-9
+Dia 226 1Crônicas 10-13
+Dia 227 1Crônicas 14-16
+Dia 228 1Crônicas 17-19
+Dia 229 1Crônicas 20-23
+Dia 230 1Crônicas 24-26
+Dia 231 1Crônicas 27-29
+Dia 232 2Crônicas 1-3
+Dia 233 2Crônicas 4-6
+Dia 234 2Crônicas 7-9
+Dia 235 2Crônicas 10-13
+Dia 236 2Crônicas 14-16
+Dia 237 2Crônicas 17-19
+Dia 238 Salmo 82; 2Crônicas 20; Salmo 83
+Dia 239 Salmos 47, 48, 115
+Dia 240 2Crônicas 21-24
+Dia 241 2Crônicas 25-27
+Dia 242 2Crônicas 28, 29; Salmo 80
+Dia 243 2Crônicas 30-32
+Dia 244 2Crônicas 33-36
+Dia 245 Ezequiel 1-3
+Dia 246 Ezequiel 4-7
+Dia 247 Ezequiel 8-11
+Dia 248 Ezequiel 12-14
+Dia 249 Ezequiel 15-18
+Dia 250 Ezequiel 19-21
+Dia 251 Ezequiel 22-24
+Dia 252 Ezequiel 25-27
+Dia 253 Ezequiel 28-30
+Dia 254 Ezequiel 31-33
+Dia 255 Ezequiel 34-36
+Dia 256 Ezequiel 37-39
+Dia 257 Ezequiel 40-42
+Dia 258 Ezequiel 43-45
+Dia 259 Ezequiel 46-48
+Dia 260 Daniel 1-3
+Dia 261 Daniel 4-6
+Dia 262 Daniel 7-9
+Dia 263 Daniel 10-12
+Dia 264 Esdras 1; Salmos 85,126, 137
+Dia 265 Esdras 2; Salmos 1, 121
+Dia 266 Salmo 119
+Dia 267 Esdras 3:1-7; Salmos 107, 111
+Dia 268 Salmos 112, 113, 114
+Dia 269 Esdras 3:8-13; Salmos 66, 84,116
+Dia 270 Salmos 125, 129; Esdras 4; Ageu 1,2
+Dia 271 Zacarias 1-3
+Dia 272 Zacarias 4-6
+Dia 273 Zacarias 7-10
+Dia 274 Zacarias 11-14
+Dia 275 Esdras 5, 6:1-15; Salmo 138
+Dia 276 Esdras 6:16-22; Salmos 81, 134
+Dia 277 Salmos 135, 136, 146
+Dia 278 Salmo 87; Esdras 7-8
+Dia 279 Esdras 9,10; Ester 1,2
+Dia 280 Salmo 10, 45; Ester 3, 4:1-9
+Dia 281 Ester 4:10-17; 5-7
+Dia 282 Ester 8-10; Salmo 124
+Dia 283 Neemias 1-3
+Dia 284 Salmos 147-149
+Dia 285 Neemias 4-6
+Dia 286 Salmos 150, 19; Neemias 7
+Dia 287 Neemias 8-10
+Dia 288 Neemias 11-13
+Dia 289 Malaquias 1-4
+Dia 290 Mateus 1-4
+Dia 291 Mateus 5-7
+Dia 292 Mateus 8-11
+Dia 293 Mateus 12-15
+Dia 294 Mateus 16-19
+Dia 295 Mateus 20-22
+Dia 296 Mateus 23-25
+Dia 297 Mateus 26-28
+Dia 298 Marcos 1-3
+Dia 299 Marcos 4-6
+Dia 300 Marcos 7-10
+Dia 301 Marcos 11-13
+Dia 302 Marcos 14-16
+Dia 303 Lucas 1-4
+Dia 304 Lucas 5-8
+Dia 305 Lucas 9-12
+Dia 306 Lucas 13-16
+Dia 307 Lucas 17-20
+Dia 308 Lucas 21-24
+Dia 309 João 1-4
+Dia 310 João 5-8
+Dia 311 João 9-12
+Dia 312 João 13-16
+Dia 313 João 17-21
+Dia 314 Atos 1-3
+Dia 315 Atos 4-6
+Dia 316 Atos 7-9
+Dia 317 Atos 10-14
+Dia 318 Tiago 1,2
+Dia 319 Tiago 3-5
+Dia 320 Gálatas 1-3
+Dia 321 Gálatas 4-6
+Dia 322 Atos 15-18:11
+Dia 323 1Tessalonicenses 1-5
+Dia 324 2Tessalonicenses 1-3; Atos 18:12-19:10
+Dia 325 1Coríntios 1-4
+Dia 326 1Coríntios 5-8
+Dia 327 1Coríntios 9-12
+Dia 328 1Coríntios 13-16
+Dia 329 Atos 19:11-20:1; 2Coríntios 1-3
+Dia 330 2Coríntios 4-6
+Dia 331 2Coríntios 7-9
+Dia 332 2Coríntios 10-13; Atos 20:2
+Dia 333 Romanos 1-4
+Dia 334 Romanos 5-6
+Dia 335 Romanos 7-9
+Dia 336 Romanos 10-12
+Dia 337 Romanos 13-16
+Dia 338 Atos 20-22
+Dia 339 Atos 23-25
+Dia 340 Atos 26-28
+Dia 341 Efésios 1-3
+Dia 342 Efésios 4-6
+Dia 343 Filipenses 1-4
+Dia 343b Colossenses 1-4
+Dia 344 Hebreus 1-4
+Dia 345 Hebreus 5-7
+Dia 346 Hebreus 8-10
+Dia 347 Hebreus 11-13
+Dia 348 Filemon; 1Pedro 1,2
+Dia 349 1Pedro 3-5
+Dia 350 2Pedro 1-3
+Dia 351 1Timóteo 1-3
+Dia 352 1Timóteo 4-6
+Dia 353 Tito 1-3
+Dia 354 2Timóteo 1-4
+Dia 355 1 João 1,2
+Dia 356 1 João 3-5
+Dia 357 2 João; 3 João; Judas
+Dia 358 Apocalipse 1-3
+Dia 359 Apocalipse 4-6
+Dia 360 Apocalipse 7-9
+Dia 361 Apocalipse 10-12
+Dia 362 Apocalipse 13-15
+Dia 363 Apocalipse 16-18
+Dia 364 Apocalipse 19-22

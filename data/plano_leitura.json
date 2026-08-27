@@ -1,0 +1,7622 @@
+[
+  {
+    "dia": 1,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 2,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 3,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 4,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 5,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 6,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 7,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 8,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 9,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 10,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 11,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 12,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 37
+          },
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 13,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 14,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 43
+          },
+          {
+            "capitulo": 44
+          },
+          {
+            "capitulo": 45
+          },
+          {
+            "capitulo": 46
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 15,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          {
+            "capitulo": 47
+          },
+          {
+            "capitulo": 48
+          },
+          {
+            "capitulo": 49
+          },
+          {
+            "capitulo": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 16,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 17,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 18,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 19,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 20,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 21,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 22,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 23,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 24,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 25,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 26,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          },
+          {
+            "capitulo": 37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 27,
+    "leituras": [
+      {
+        "livro": "Jó",
+        "trechos": [
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          },
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 28,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 29,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 30,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 31,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 32,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 33,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 34,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 35,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 36,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 37,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 38,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          },
+          {
+            "capitulo": 37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 39,
+    "leituras": [
+      {
+        "livro": "Êxodo",
+        "trechos": [
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          },
+          {
+            "capitulo": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 40,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 41,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 42,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 43,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 44,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 45,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 46,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 47,
+    "leituras": [
+      {
+        "livro": "Levítico",
+        "trechos": [
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 48,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 49,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 50,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 51,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12,
+            "versiculo_inicial": 1,
+            "versiculo_final": 16
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 52,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 91
+          }
+        ]
+      },
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 53,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 54,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 55,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 56,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 57,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 58,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 59,
+    "leituras": [
+      {
+        "livro": "Números",
+        "trechos": [
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 60,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 61,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 62,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 63,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 64,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 65,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 66,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 67,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 68,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 69,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 70,
+    "leituras": [
+      {
+        "livro": "Deuteronômio",
+        "trechos": [
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 71,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 72,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 73,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 74,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 75,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 76,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 77,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 78,
+    "leituras": [
+      {
+        "livro": "Josué",
+        "trechos": [
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 79,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 80,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 81,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 82,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 83,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 84,
+    "leituras": [
+      {
+        "livro": "Juízes",
+        "trechos": [
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 85,
+    "leituras": [
+      {
+        "livro": "Rute",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 86,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 87,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 88,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 89,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 90,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 91,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 1,
+            "versiculo_final": 18
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 59
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 92,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 19,
+            "versiculo_final": 24
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 56
+          },
+          {
+            "capitulo": 142
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 93,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 22
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 94,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 52
+          },
+          {
+            "capitulo": 109
+          },
+          {
+            "capitulo": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 95,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 64
+          }
+        ]
+      },
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 23,
+            "versiculo_inicial": 1,
+            "versiculo_final": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 96,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 54
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      },
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 97,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 63
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 57
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 98,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 58
+          },
+          {
+            "capitulo": 120
+          }
+        ]
+      },
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 99,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 141
+          }
+        ]
+      },
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 100,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 101,
+    "leituras": [
+      {
+        "livro": "1 Samuel",
+        "trechos": [
+          {
+            "capitulo": 31
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 102,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 101
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 103,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 5
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 139
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 104,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 78
+          },
+          {
+            "capitulo": 96
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 105,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 68
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 106,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 132
+          },
+          {
+            "capitulo": 133
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 107,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 106
+          },
+          {
+            "capitulo": 105
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 108,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 7
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 109,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 110
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 8
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 97
+          },
+          {
+            "capitulo": 98
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 110,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 108
+          },
+          {
+            "capitulo": 117
+          },
+          {
+            "capitulo": 118
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 111,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 60
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 112,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 113,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 12
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 114,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 115,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 51
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 116,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 103
+          },
+          {
+            "capitulo": 104
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 117,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 55
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 118,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 16
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 7
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 119,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 120,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 43
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 121,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 61
+          },
+          {
+            "capitulo": 62
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 122,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 69
+          },
+          {
+            "capitulo": 70
+          },
+          {
+            "capitulo": 71
+          },
+          {
+            "capitulo": 86
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 123,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 143
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 124,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 122
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 125,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 141
+          },
+          {
+            "capitulo": 65
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 126,
+    "leituras": [
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 21
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 127,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 131
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      },
+      {
+        "livro": "2 Samuel",
+        "trechos": [
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      },
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 128,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 72
+          },
+          {
+            "capitulo": 145
+          }
+        ]
+      },
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 129,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 130,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 99
+          },
+          {
+            "capitulo": 100
+          },
+          {
+            "capitulo": 127
+          },
+          {
+            "capitulo": 128
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 131,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 132,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 133,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 134,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 135,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 136,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 137,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 138,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 139,
+    "leituras": [
+      {
+        "livro": "Provérbios",
+        "trechos": [
+          {
+            "capitulo": 31
+          }
+        ]
+      },
+      {
+        "livro": "Eclesiastes",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 140,
+    "leituras": [
+      {
+        "livro": "Eclesiastes",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 141,
+    "leituras": [
+      {
+        "livro": "Eclesiastes",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 142,
+    "leituras": [
+      {
+        "livro": "Eclesiastes",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 143,
+    "leituras": [
+      {
+        "livro": "Eclesiastes",
+        "trechos": [
+          {
+            "capitulo": 12
+          }
+        ]
+      },
+      {
+        "livro": "Cânticos",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 144,
+    "leituras": [
+      {
+        "livro": "Cânticos",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 145,
+    "leituras": [
+      {
+        "livro": "Cânticos",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 146,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 147,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 148,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 149,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 150,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 151,
+    "leituras": [
+      {
+        "livro": "1 Reis",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      },
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 152,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 153,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 154,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 155,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14,
+            "versiculo_inicial": 1,
+            "versiculo_final": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 156,
+    "leituras": [
+      {
+        "livro": "Joel",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 157,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 14,
+            "versiculo_inicial": 21,
+            "versiculo_final": 25
+          }
+        ]
+      },
+      {
+        "livro": "Jonas",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 158,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 14,
+            "versiculo_inicial": 26,
+            "versiculo_final": 29
+          }
+        ]
+      },
+      {
+        "livro": "Amós",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 159,
+    "leituras": [
+      {
+        "livro": "Amós",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 160,
+    "leituras": [
+      {
+        "livro": "Amós",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 161,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 162,
+    "leituras": [
+      {
+        "livro": "Oséias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 163,
+    "leituras": [
+      {
+        "livro": "Oséias",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 164,
+    "leituras": [
+      {
+        "livro": "Oséias",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 165,
+    "leituras": [
+      {
+        "livro": "Oséias",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 166,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 18
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 167,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 1,
+            "versiculo_final": 34
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 73
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 168,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 35,
+            "versiculo_final": 37
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 92
+          },
+          {
+            "capitulo": 93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 169,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 46
+          },
+          {
+            "capitulo": 75
+          },
+          {
+            "capitulo": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 170,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 171,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 172,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 173,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 174,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 175,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 176,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 177,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 178,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 179,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 180,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 181,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 37
+          },
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 182,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 183,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 43
+          },
+          {
+            "capitulo": 44
+          },
+          {
+            "capitulo": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 184,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 46
+          },
+          {
+            "capitulo": 47
+          },
+          {
+            "capitulo": 48
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 185,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 49
+          },
+          {
+            "capitulo": 50
+          },
+          {
+            "capitulo": 51
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 186,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 52
+          },
+          {
+            "capitulo": 53
+          },
+          {
+            "capitulo": 54
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 187,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 55
+          },
+          {
+            "capitulo": 56
+          },
+          {
+            "capitulo": 57
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 188,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 58
+          },
+          {
+            "capitulo": 59
+          },
+          {
+            "capitulo": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 189,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 61
+          },
+          {
+            "capitulo": 62
+          },
+          {
+            "capitulo": 63
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 190,
+    "leituras": [
+      {
+        "livro": "Isaías",
+        "trechos": [
+          {
+            "capitulo": 64
+          },
+          {
+            "capitulo": 65
+          },
+          {
+            "capitulo": 66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 191,
+    "leituras": [
+      {
+        "livro": "Miquéias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 192,
+    "leituras": [
+      {
+        "livro": "Miquéias",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 193,
+    "leituras": [
+      {
+        "livro": "Naum",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 194,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 195,
+    "leituras": [
+      {
+        "livro": "Sofonias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 196,
+    "leituras": [
+      {
+        "livro": "Habacuque",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 197,
+    "leituras": [
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 74
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 198,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 79
+          },
+          {
+            "capitulo": 94
+          }
+        ]
+      },
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 24,
+            "versiculo_inicial": 1,
+            "versiculo_final": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 199,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 88
+          }
+        ]
+      },
+      {
+        "livro": "2 Reis",
+        "trechos": [
+          {
+            "capitulo": 24,
+            "versiculo_inicial": 17,
+            "versiculo_final": 20
+          },
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 200,
+    "leituras": [
+      {
+        "livro": "Obadias",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      },
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 201,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 202,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 203,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 204,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 13
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 205,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 36
+          },
+          {
+            "capitulo": 37
+          },
+          {
+            "capitulo": 49
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 206,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 53
+          },
+          {
+            "capitulo": 77
+          },
+          {
+            "capitulo": 89
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 207,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 123
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 208,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 50
+          },
+          {
+            "capitulo": 67
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 209,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 102
+          },
+          {
+            "capitulo": 130
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 210,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 211,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 212,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 213,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 214,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 215,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 216,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 217,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 37
+          },
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 218,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 219,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 43
+          },
+          {
+            "capitulo": 44
+          },
+          {
+            "capitulo": 45
+          },
+          {
+            "capitulo": 46
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 220,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 47
+          },
+          {
+            "capitulo": 48
+          },
+          {
+            "capitulo": 49
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 221,
+    "leituras": [
+      {
+        "livro": "Jeremias",
+        "trechos": [
+          {
+            "capitulo": 50
+          },
+          {
+            "capitulo": 51
+          },
+          {
+            "capitulo": 52
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 222,
+    "leituras": [
+      {
+        "livro": "Lamentações de Jeremias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 223,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 224,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 225,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 226,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 227,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 228,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 229,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 230,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 231,
+    "leituras": [
+      {
+        "livro": "1 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 232,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 233,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 234,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 235,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 236,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 237,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 238,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 82
+          }
+        ]
+      },
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 20
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 83
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 239,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 47
+          },
+          {
+            "capitulo": 48
+          },
+          {
+            "capitulo": 115
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 240,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 241,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 242,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 243,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 30
+          },
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 244,
+    "leituras": [
+      {
+        "livro": "2 Crônicas",
+        "trechos": [
+          {
+            "capitulo": 33
+          },
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 245,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 246,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 247,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 248,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 249,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 250,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 251,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 252,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 25
+          },
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 253,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 28
+          },
+          {
+            "capitulo": 29
+          },
+          {
+            "capitulo": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 254,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 31
+          },
+          {
+            "capitulo": 32
+          },
+          {
+            "capitulo": 33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 255,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 34
+          },
+          {
+            "capitulo": 35
+          },
+          {
+            "capitulo": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 256,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 37
+          },
+          {
+            "capitulo": 38
+          },
+          {
+            "capitulo": 39
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 257,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 40
+          },
+          {
+            "capitulo": 41
+          },
+          {
+            "capitulo": 42
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 258,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 43
+          },
+          {
+            "capitulo": 44
+          },
+          {
+            "capitulo": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 259,
+    "leituras": [
+      {
+        "livro": "Ezequiel",
+        "trechos": [
+          {
+            "capitulo": 46
+          },
+          {
+            "capitulo": 47
+          },
+          {
+            "capitulo": 48
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 260,
+    "leituras": [
+      {
+        "livro": "Daniel",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 261,
+    "leituras": [
+      {
+        "livro": "Daniel",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 262,
+    "leituras": [
+      {
+        "livro": "Daniel",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 263,
+    "leituras": [
+      {
+        "livro": "Daniel",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 264,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 85
+          },
+          {
+            "capitulo": 126
+          },
+          {
+            "capitulo": 137
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 265,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 2
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 121
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 266,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 119
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 267,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 3,
+            "versiculo_inicial": 1,
+            "versiculo_final": 7
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 107
+          },
+          {
+            "capitulo": 111
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 268,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 112
+          },
+          {
+            "capitulo": 113
+          },
+          {
+            "capitulo": 114
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 269,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 3,
+            "versiculo_inicial": 8,
+            "versiculo_final": 13
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 66
+          },
+          {
+            "capitulo": 84
+          },
+          {
+            "capitulo": 116
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 270,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 125
+          },
+          {
+            "capitulo": 129
+          }
+        ]
+      },
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 4
+          }
+        ]
+      },
+      {
+        "livro": "Ageu",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 271,
+    "leituras": [
+      {
+        "livro": "Zacarias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 272,
+    "leituras": [
+      {
+        "livro": "Zacarias",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 273,
+    "leituras": [
+      {
+        "livro": "Zacarias",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 274,
+    "leituras": [
+      {
+        "livro": "Zacarias",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 275,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6,
+            "versiculo_inicial": 1,
+            "versiculo_final": 15
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 138
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 276,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 6,
+            "versiculo_inicial": 16,
+            "versiculo_final": 22
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 81
+          },
+          {
+            "capitulo": 134
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 277,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 135
+          },
+          {
+            "capitulo": 136
+          },
+          {
+            "capitulo": 146
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 278,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 87
+          }
+        ]
+      },
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 279,
+    "leituras": [
+      {
+        "livro": "Esdras",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      },
+      {
+        "livro": "Ester",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 280,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 45
+          }
+        ]
+      },
+      {
+        "livro": "Ester",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4,
+            "versiculo_inicial": 1,
+            "versiculo_final": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 281,
+    "leituras": [
+      {
+        "livro": "Ester",
+        "trechos": [
+          {
+            "capitulo": 4,
+            "versiculo_inicial": 10,
+            "versiculo_final": 17
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 282,
+    "leituras": [
+      {
+        "livro": "Ester",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      },
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 124
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 283,
+    "leituras": [
+      {
+        "livro": "Neemias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 284,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 147
+          },
+          {
+            "capitulo": 148
+          },
+          {
+            "capitulo": 149
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 285,
+    "leituras": [
+      {
+        "livro": "Neemias",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 286,
+    "leituras": [
+      {
+        "livro": "Salmos",
+        "trechos": [
+          {
+            "capitulo": 150
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      },
+      {
+        "livro": "Neemias",
+        "trechos": [
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 287,
+    "leituras": [
+      {
+        "livro": "Neemias",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 288,
+    "leituras": [
+      {
+        "livro": "Neemias",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 289,
+    "leituras": [
+      {
+        "livro": "Malaquias",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 290,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 291,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 292,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 293,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 294,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 295,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 296,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 297,
+    "leituras": [
+      {
+        "livro": "Mateus",
+        "trechos": [
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 298,
+    "leituras": [
+      {
+        "livro": "Marcos",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 299,
+    "leituras": [
+      {
+        "livro": "Marcos",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 300,
+    "leituras": [
+      {
+        "livro": "Marcos",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 301,
+    "leituras": [
+      {
+        "livro": "Marcos",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 302,
+    "leituras": [
+      {
+        "livro": "Marcos",
+        "trechos": [
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 303,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 304,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 305,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 306,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 307,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 308,
+    "leituras": [
+      {
+        "livro": "Lucas",
+        "trechos": [
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          },
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 309,
+    "leituras": [
+      {
+        "livro": "João",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 310,
+    "leituras": [
+      {
+        "livro": "João",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 311,
+    "leituras": [
+      {
+        "livro": "João",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 312,
+    "leituras": [
+      {
+        "livro": "João",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 313,
+    "leituras": [
+      {
+        "livro": "João",
+        "trechos": [
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          },
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 314,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 315,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 316,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 317,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 318,
+    "leituras": [
+      {
+        "livro": "Tiago",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 319,
+    "leituras": [
+      {
+        "livro": "Tiago",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 320,
+    "leituras": [
+      {
+        "livro": "Gálatas",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 321,
+    "leituras": [
+      {
+        "livro": "Gálatas",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 322,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18,
+            "versiculo_inicial": 1,
+            "versiculo_final": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 323,
+    "leituras": [
+      {
+        "livro": "1 Tessalonicenses",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 324,
+    "leituras": [
+      {
+        "livro": "2 Tessalonicenses",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      },
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 18,
+            "versiculo_inicial": 12
+          },
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 1,
+            "versiculo_final": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 325,
+    "leituras": [
+      {
+        "livro": "1 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 326,
+    "leituras": [
+      {
+        "livro": "1 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 327,
+    "leituras": [
+      {
+        "livro": "1 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 328,
+    "leituras": [
+      {
+        "livro": "1 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 329,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 19,
+            "versiculo_inicial": 11
+          },
+          {
+            "capitulo": 20,
+            "versiculo_inicial": 1,
+            "versiculo_final": 1
+          }
+        ]
+      },
+      {
+        "livro": "2 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 330,
+    "leituras": [
+      {
+        "livro": "2 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 331,
+    "leituras": [
+      {
+        "livro": "2 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 332,
+    "leituras": [
+      {
+        "livro": "2 Coríntios",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      },
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 20,
+            "versiculo_inicial": 2,
+            "versiculo_final": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 333,
+    "leituras": [
+      {
+        "livro": "Romanos",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 334,
+    "leituras": [
+      {
+        "livro": "Romanos",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 335,
+    "leituras": [
+      {
+        "livro": "Romanos",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 336,
+    "leituras": [
+      {
+        "livro": "Romanos",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 337,
+    "leituras": [
+      {
+        "livro": "Romanos",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          },
+          {
+            "capitulo": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 338,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 339,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 23
+          },
+          {
+            "capitulo": 24
+          },
+          {
+            "capitulo": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 340,
+    "leituras": [
+      {
+        "livro": "Atos",
+        "trechos": [
+          {
+            "capitulo": 26
+          },
+          {
+            "capitulo": 27
+          },
+          {
+            "capitulo": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 341,
+    "leituras": [
+      {
+        "livro": "Efésios",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 342,
+    "leituras": [
+      {
+        "livro": "Efésios",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 343,
+    "leituras": [
+      {
+        "livro": "Filipenses",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 344,
+    "leituras": [
+      {
+        "livro": "Colossenses",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 345,
+    "leituras": [
+      {
+        "livro": "Hebreus",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 346,
+    "leituras": [
+      {
+        "livro": "Hebreus",
+        "trechos": [
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          },
+          {
+            "capitulo": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 347,
+    "leituras": [
+      {
+        "livro": "Hebreus",
+        "trechos": [
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          },
+          {
+            "capitulo": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 348,
+    "leituras": [
+      {
+        "livro": "Hebreus",
+        "trechos": [
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          },
+          {
+            "capitulo": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 349,
+    "leituras": [
+      {
+        "livro": "Filemom",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      },
+      {
+        "livro": "1 Pedro",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 350,
+    "leituras": [
+      {
+        "livro": "1 Pedro",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 351,
+    "leituras": [
+      {
+        "livro": "2 Pedro",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 352,
+    "leituras": [
+      {
+        "livro": "1 Timóteo",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 353,
+    "leituras": [
+      {
+        "livro": "1 Timóteo",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 354,
+    "leituras": [
+      {
+        "livro": "Tito",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 355,
+    "leituras": [
+      {
+        "livro": "2 Timóteo",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 356,
+    "leituras": [
+      {
+        "livro": "1 João",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 357,
+    "leituras": [
+      {
+        "livro": "1 João",
+        "trechos": [
+          {
+            "capitulo": 3
+          },
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 358,
+    "leituras": [
+      {
+        "livro": "2 João",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      },
+      {
+        "livro": "3 João",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      },
+      {
+        "livro": "Judas",
+        "trechos": [
+          {
+            "capitulo": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 359,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 1
+          },
+          {
+            "capitulo": 2
+          },
+          {
+            "capitulo": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 360,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 4
+          },
+          {
+            "capitulo": 5
+          },
+          {
+            "capitulo": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 361,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 7
+          },
+          {
+            "capitulo": 8
+          },
+          {
+            "capitulo": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 362,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 10
+          },
+          {
+            "capitulo": 11
+          },
+          {
+            "capitulo": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 363,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 13
+          },
+          {
+            "capitulo": 14
+          },
+          {
+            "capitulo": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 364,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 16
+          },
+          {
+            "capitulo": 17
+          },
+          {
+            "capitulo": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 365,
+    "leituras": [
+      {
+        "livro": "Apocalipse",
+        "trechos": [
+          {
+            "capitulo": 19
+          },
+          {
+            "capitulo": 20
+          },
+          {
+            "capitulo": 21
+          },
+          {
+            "capitulo": 22
+          }
+        ]
+      }
+    ]
+  }
+]

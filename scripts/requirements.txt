@@ -1,0 +1,4 @@
+# O script usa só a biblioteca padrão do Python (urllib, json, datetime),
+# então não há dependências externas de fato. Este arquivo existe para
+# o workflow do GitHub Actions ter um passo de instalação previsível
+# caso você adicione bibliotecas no futuro (ex.: requests).

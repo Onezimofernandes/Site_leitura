@@ -1,0 +1,31 @@
+[
+  {
+    "dia": 1,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          { "capitulo": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "dia": 2,
+    "leituras": [
+      {
+        "livro": "Gênesis",
+        "trechos": [
+          { "capitulo": 2, "versiculo_inicial": 4, "versiculo_final": 25 }
+        ]
+      },
+      {
+        "livro": "Jó",
+        "trechos": [
+          { "capitulo": 1 },
+          { "capitulo": 2, "versiculo_inicial": 1, "versiculo_final": 10 }
+        ]
+      }
+    ]
+  }
+]
