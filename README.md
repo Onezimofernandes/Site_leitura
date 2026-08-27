@@ -7,30 +7,7 @@ da porção do dia de um plano de leitura da Bíblia em 365 dias.
 
 O plano em uso é o cronológico que você forneceu (`plano_bruto.txt`,
 convertido para `data/plano_leitura.json` por
-`scripts/converter_plano.py`). Dois pontos que precisam do seu aval,
-já resolvidos com a decisão mais conservadora possível, mas reversível
-se você discordar:
-
-1. **Dia duplicado no PDF original:** o documento tinha duas entradas
-   "Dia 343", uma para Filipenses 1-4 e outra para Colossenses 1-4
-   (a segunda claramente deveria ser "Dia 344"). Tratei isso como um
-   dia a mais e renumerei tudo a partir dali em +1, para o plano
-   fechar em 365 dias (o PDF original ia só até o dia 364). Se a
-   intenção original era outra (por exemplo, ler os dois livros no
-   mesmo dia 343 e manter só 364 dias de plano), me avise que eu
-   ajusto o conversor.
-2. **Bug que corrigi durante a integração:** o JSON da fonte bíblica
-   (`aa.json`) usa a chave `"name"` para o nome do livro, não
-   `"book"` como eu tinha escrito antes em `enviar_email.py`. Sem essa
-   correção, todo dia teria dado erro de "livro não encontrado". Já
-   corrigido.
-
-O plano gerado foi validado automaticamente: todo capítulo e todo
-intervalo de versículo foi conferido contra a contagem real de
-capítulos/versículos do `aa.json` (zero problemas encontrados) e
-depois eu conferi manualmente, contra uma retranscrição independente
-do PDF, que a passagem do texto do documento para `plano_bruto.txt`
-não introduziu nenhum erro de digitação.
+`scripts/converter_plano.py`). 
 
 Esquema de `data/plano_leitura.json`, um item por dia:
 
