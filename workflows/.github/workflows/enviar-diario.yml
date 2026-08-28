@@ -26,4 +26,4 @@ jobs:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_SENDER_EMAIL: ${{ secrets.BREVO_SENDER_EMAIL }}
           BREVO_SENDER_NOME: "Porção Diária"
-        run: python scripts/enviar_email.py
+        run: python -u scripts/enviar_email.py
