@@ -1,10 +1,5 @@
 name: Enviar porção diária
 
-- run: echo "SUPABASE_URL=$SUPABASE_URL"
-- run: echo "BREVO_SENDER_EMAIL=$BREVO_SENDER_EMAIL"
-
-name: Enviar porção diária
-
 on:
   schedule:
     # 09:00 UTC = 06:00 em America/Fortaleza (UTC-3, sem horário de verão).
