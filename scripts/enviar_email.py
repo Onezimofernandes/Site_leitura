@@ -127,7 +127,7 @@ def montar_html_completo(referencia, corpo_html):
               <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
                         font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
                 Você recebe este email porque se inscreveu para receber a leitura diária.
-                Para sair da lista, responda este email pedindo a remoção.
+                Para sair da lista, responda este email pedindo a  sua remoção.
               </p>
             </td>
           </tr>
@@ -173,7 +173,7 @@ def enviar_via_brevo(destinatario, referencia, corpo_html):
             "email": os.environ["BREVO_SENDER_EMAIL"],
         },
         "to": [{"email": destinatario}],
-        "subject": f"Porção de hoje: {referencia}",
+        "subject": f"Leitura Bíblica Diária: {referencia}",
         "htmlContent": montar_html_completo(referencia, corpo_html),
     }
     req = urllib.request.Request(
