@@ -71,7 +71,10 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
         nome_livro = leitura["livro"]
         capitulos_biblia = indice_livros.get(nome_livro)
         if capitulos_biblia is None:
-            blocos.append(f"<p><em>Não encontrei '{nome_livro}' na fonte bíblica configurada.</em></p>")
+            blocos.append(
+                f'<p style="margin:0 0 16px;font-style:italic;color:#8a4a4a;">'
+                f"Não encontrei '{nome_livro}' na fonte bíblica configurada.</p>"
+            )
             continue
         for trecho in leitura["trechos"]:
             num_cap = trecho["capitulo"]
@@ -82,7 +85,9 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
 
             fatia = versiculos_do_capitulo[inicio - 1: fim]
             texto_versiculos = " ".join(
-                f'<sup>{inicio + i}</sup> {v}' for i, v in enumerate(fatia)
+                f'<sup style="font-size:11px;line-height:0;color:#9c8f7a;'
+                f'margin-right:1px;">{inicio + i}</sup>{v}'
+                for i, v in enumerate(fatia)
             )
 
             if inicio == 1 and fim == len(versiculos_do_capitulo):
@@ -90,8 +95,48 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
             else:
                 titulo = f"{nome_livro} {num_cap}:{inicio}-{fim}"
 
-            blocos.append(f"<h3>{titulo}</h3><p>{texto_versiculos}</p>")
+            blocos.append(
+                f'<h2 style="margin:28px 0 10px;font-family:Georgia,\'Times New Roman\',serif;'
+                f'font-size:15px;font-weight:600;letter-spacing:0.02em;color:#7A1F2B;">{titulo}</h2>'
+                f'<p style="margin:0;font-family:Georgia,\'Times New Roman\',serif;'
+                f'font-size:17px;line-height:1.9;color:#2B2620;">{texto_versiculos}</p>'
+            )
     return "\n".join(blocos)
+
+
+def montar_html_completo(referencia, corpo_html):
+    return f"""\
+<html>
+<body style="margin:0;padding:0;background-color:#EDE4D0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EDE4D0;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;width:100%;background-color:#FFFDF7;border-radius:6px;">
+          <tr>
+            <td style="padding:40px 36px 32px;font-family:Georgia,'Times New Roman',serif;">
+              <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                        letter-spacing:0.14em;text-transform:uppercase;color:#7A1F2B;">
+                Porção de hoje
+              </p>
+              <h1 style="margin:0 0 30px;font-size:23px;line-height:1.3;color:#2B2620;
+                         font-family:Georgia,'Times New Roman',serif;">
+                {referencia}
+              </h1>
+              {corpo_html}
+              <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
+                        font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
+                Você recebe este email porque se inscreveu para receber a leitura diária.
+                Para sair da lista, responda este email pedindo a remoção.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
 
 
 def referencia_curta(entrada_do_dia):
@@ -121,7 +166,7 @@ def buscar_inscritos():
     return [linha["email"] for linha in linhas]
 
 
-def enviar_via_brevo(destinatario, referencia, texto_html):
+def enviar_via_brevo(destinatario, referencia, corpo_html):
     payload = {
         "sender": {
             "name": os.environ.get("BREVO_SENDER_NOME", "Porção Diária"),
@@ -129,7 +174,7 @@ def enviar_via_brevo(destinatario, referencia, texto_html):
         },
         "to": [{"email": destinatario}],
         "subject": f"Porção de hoje: {referencia}",
-        "htmlContent": f"<html><body style='font-family:Georgia,serif;line-height:1.5'>{texto_html}</body></html>",
+        "htmlContent": montar_html_completo(referencia, corpo_html),
     }
     req = urllib.request.Request(
         "https://api.brevo.com/v3/smtp/email",
