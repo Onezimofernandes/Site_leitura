@@ -1,0 +1,34 @@
+name: Manter workflows ativos
+
+# O GitHub desativa automaticamente workflows agendados depois de 60
+# dias sem nenhum commit no repositório (vale tanto para repositório
+# público quanto privado). Este workflow roda uma vez por mês e faz um
+# commit mínimo (atualiza um arquivo de log), só para o repositório
+# nunca ficar 60 dias "parado" e derrubar o envio diário em silêncio.
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'  # dia 1 de cada mês, 03:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  manter-ativo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Registrar atividade
+        run: |
+          mkdir -p .github/manutencao
+          echo "Última verificação automática: $(date -u +'%Y-%m-%d %H:%M UTC')" > .github/manutencao/ultima-atividade.txt
+
+      - name: Commit se houve mudança
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/manutencao/ultima-atividade.txt
+          git diff --cached --quiet || git commit -m "chore: manter repositório ativo"
+          git push
