@@ -25,5 +25,5 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           BREVO_SENDER_EMAIL: ${{ secrets.BREVO_SENDER_EMAIL }}
-          BREVO_SENDER_NOME: "Porção Diária"
+          BREVO_SENDER_NOME: "Leitura Bíblica Diária"
         run: python -u scripts/enviar_email.py
