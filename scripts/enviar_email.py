@@ -51,7 +51,7 @@ def carregar_plano():
 
 def baixar_biblia():
     with urllib.request.urlopen(BIBLIA_URL, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+        return json.loads(resp.read().decode("utf-8-sig"))
 
 
 def indexar_por_livro(biblia_json):
