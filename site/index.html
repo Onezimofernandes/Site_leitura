@@ -175,15 +175,22 @@
     const mensagem = document.getElementById('mensagem');
 
     form.addEventListener('submit', async (evento) => {
-      evento.preventDefault();
-      const email = document.getElementById('email').value.trim();
-      mensagem.textContent = '';
-      mensagem.className = 'mensagem';
+  evento.preventDefault();
+  const email = document.getElementById('email').value.trim().toLowerCase();
+  mensagem.textContent = '';
+  mensagem.className = 'mensagem';
 
-      botao.disabled = true;
-      botao.textContent = 'Enviando...';
+  const formatoValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!formatoValido) {
+    mensagem.textContent = 'Digite um email válido (ex: nome@exemplo.com).';
+    mensagem.classList.add('erro');
+    return;
+  }
 
-      const { error } = await supabase.from('inscritos').insert({ email });
+  botao.disabled = true;
+  botao.textContent = 'Enviando...';
+
+  const { error } = await supabase.from('inscritos').insert({ email });
 
       botao.disabled = false;
       botao.textContent = 'Quero receber';
