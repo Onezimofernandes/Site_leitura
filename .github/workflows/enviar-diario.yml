@@ -4,7 +4,7 @@ on:
   schedule:
     # 09:00 UTC = 06:00 em America/Fortaleza (UTC-3, sem horário de verão).
     # Ajuste o horário trocando o valor abaixo, sempre em UTC.
-    - cron: '0 7 * * *'
+    - cron: '0 2 * * *'
   workflow_dispatch: {}  # permite rodar manualmente pela aba Actions, útil para testar
 
 jobs:
