@@ -35,6 +35,18 @@ BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 
+SITE_URL = "https://scripts-woad-seven.vercel.app/"  # ex: https://site-leitura.vercel.app, sem barra no final
+
+MESES_PT = [
+    "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
+]
+
+
+def formatar_data_pt(data: datetime.date) -> str:
+    return f"{data.day} de {MESES_PT[data.month - 1]} de {data.year}"
+
+
 FUSO_HORARIO = datetime.timezone(datetime.timedelta(hours=-3))  # America/Fortaleza, sem horário de verão
 
 
@@ -84,9 +96,11 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
             fim = trecho.get("versiculo_final", len(versiculos_do_capitulo))
 
             fatia = versiculos_do_capitulo[inicio - 1: fim]
-            texto_versiculos = " ".join(
+            paragrafos_versiculos = "\n".join(
+                f'<p style="margin:0 0 14px;font-family:Georgia,\'Times New Roman\',serif;'
+                f'font-size:17px;line-height:1.8;color:#2B2620;">'
                 f'<sup style="font-size:11px;line-height:0;color:#9c8f7a;'
-                f'margin-right:1px;">{inicio + i}</sup>{v}'
+                f'margin-right:5px;">{inicio + i}</sup>{v}</p>'
                 for i, v in enumerate(fatia)
             )
 
@@ -98,13 +112,12 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
             blocos.append(
                 f'<h2 style="margin:28px 0 10px;font-family:Georgia,\'Times New Roman\',serif;'
                 f'font-size:15px;font-weight:600;letter-spacing:0.02em;color:#7A1F2B;">{titulo}</h2>'
-                f'<p style="margin:0;font-family:Georgia,\'Times New Roman\',serif;'
-                f'font-size:17px;line-height:1.9;color:#2B2620;">{texto_versiculos}</p>'
+                f'{paragrafos_versiculos}'
             )
     return "\n".join(blocos)
 
 
-def montar_html_completo(referencia, corpo_html):
+def montar_html_completo(referencia, corpo_html, link_cancelamento):
     return f"""\
 <html>
 <body style="margin:0;padding:0;background-color:#EDE4D0;">
@@ -127,7 +140,7 @@ def montar_html_completo(referencia, corpo_html):
               <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
                         font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
                 Você recebe este email porque se inscreveu para receber a leitura diária.
-                Para sair da lista, responda este email pedindo a  sua remoção.
+                <a href="{link_cancelamento}" style="color:#5B5347;">Clique aqui para cancelar a inscrição.</a>
               </p>
             </td>
           </tr>
@@ -156,25 +169,25 @@ def referencia_curta(entrada_do_dia):
 
 
 def buscar_inscritos():
-    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/inscritos?select=email&confirmado=eq.true"
+    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/inscritos?select=email,token&confirmado=eq.true"
     req = urllib.request.Request(url, headers={
         "apikey": os.environ["SUPABASE_SERVICE_KEY"],
         "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
     })
     with urllib.request.urlopen(req, timeout=30) as resp:
         linhas = json.loads(resp.read().decode("utf-8"))
-    return [linha["email"] for linha in linhas]
+    return [{"email": linha["email"], "token": linha["token"]} for linha in linhas]
 
 
-def enviar_via_brevo(destinatario, referencia, corpo_html):
+def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancelamento):
     payload = {
         "sender": {
             "name": os.environ.get("BREVO_SENDER_NOME", "Porção Diária"),
             "email": os.environ["BREVO_SENDER_EMAIL"],
         },
         "to": [{"email": destinatario}],
-        "subject": f"Leitura Bíblica Diária: {referencia}",
-        "htmlContent": montar_html_completo(referencia, corpo_html),
+        "subject": assunto,
+        "htmlContent": montar_html_completo(referencia, corpo_html, link_cancelamento),
     }
     req = urllib.request.Request(
         "https://api.brevo.com/v3/smtp/email",
@@ -204,13 +217,15 @@ def main():
 
     texto_html = montar_texto_do_dia(entrada_do_dia, indice_livros)
     referencia = referencia_curta(entrada_do_dia)
+    assunto = f"Leitura Bíblica, {formatar_data_pt(hoje)}"
 
     inscritos = buscar_inscritos()
     print(f"Dia {entrada_do_dia['dia']} ({referencia}): enviando para {len(inscritos)} inscritos.")
 
     falhas = 0
-    for email in inscritos:
-        status = enviar_via_brevo(email, referencia, texto_html)
+    for inscrito in inscritos:
+        link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
+        status = enviar_via_brevo(inscrito["email"], assunto, referencia, texto_html, link_cancelamento)
         if status is None:
             falhas += 1
 
