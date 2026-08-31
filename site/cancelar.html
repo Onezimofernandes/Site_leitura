@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cancelar inscrição — Porção Diária</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel: #EDE4D0;
+    --papel-escuro: #E2D6BC;
+    --tinta: #2B2620;
+    --tinta-suave: #5B5347;
+    --vinho: #7A1F2B;
+    --vinho-escuro: #5E1620;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--papel);
+    color:var(--tinta);
+    font-family:"Source Serif 4", Georgia, serif;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .cartao{
+    max-width:480px;
+    width:100%;
+    background:var(--papel-escuro);
+    border-radius:2px;
+    padding:48px 40px;
+    box-shadow: 0 1px 2px rgba(43,38,32,0.08), 0 24px 48px -24px rgba(43,38,32,0.35);
+    text-align:center;
+  }
+  h1{
+    font-family:"Fraunces", serif;
+    font-weight:600;
+    font-size:26px;
+    line-height:1.2;
+    margin:0 0 16px;
+  }
+  p{
+    font-size:16px;
+    line-height:1.6;
+    color:var(--tinta-suave);
+    margin:0 0 28px;
+  }
+  button{
+    font-family:"Source Serif 4", serif;
+    font-size:16px;
+    font-weight:600;
+    padding:13px 22px;
+    border:none;
+    border-radius:2px;
+    background:var(--vinho);
+    color:var(--papel);
+    cursor:pointer;
+  }
+  button:hover{ background:var(--vinho-escuro); }
+  button:disabled{ opacity:0.6; cursor:default; }
+  a.link-voltar{
+    display:inline-block;
+    margin-top:20px;
+    color:var(--vinho);
+    font-size:14px;
+  }
+</style>
+</head>
+<body>
+  <main class="cartao" id="cartao">
+    <h1>Sair da lista da Porção Diária?</h1>
+    <p id="texto">
+      Se confirmar, você não recebe mais os emails diários. Pode se
+      inscrever de novo quando quiser, pelo site.
+    </p>
+    <button id="botao-cancelar" type="button">Confirmar cancelamento</button>
+  </main>
+
+  <script type="module">
+    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+    // Mesmos valores usados em index.html.
+    const SUPABASE_URL = "https://nsltgofwtuzwjmhpjsbi.supabase.co";
+    const SUPABASE_ANON_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5zbHRnb2Z3dHV6d2ptaHBqc2JpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3MzU4MzksImV4cCI6MjEwMzMxMTgzOX0.y3z1uNozPNNtF0XVZYEEIC4nic0QVbrokFNNVURj4Mg";
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    const cartao = document.getElementById('cartao');
+    const texto = document.getElementById('texto');
+    const botao = document.getElementById('botao-cancelar');
+
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('token');
+
+    if (!token) {
+      texto.textContent = 'Link inválido: nenhum código de cancelamento foi encontrado.';
+      botao.remove();
+    } else {
+      botao.addEventListener('click', async () => {
+        botao.disabled = true;
+        botao.textContent = 'Cancelando...';
+
+        const { error } = await supabase.rpc('cancelar_inscricao', { token_informado: token });
+
+        if (error) {
+          texto.textContent = 'Não foi possível cancelar agora. Tente de novo em instantes.';
+          botao.disabled = false;
+          botao.textContent = 'Confirmar cancelamento';
+          return;
+        }
+
+        document.querySelector('h1').textContent = 'Inscrição cancelada.';
+        texto.textContent = 'Você não vai mais receber os emails diários. Se mudar de ideia, pode se inscrever de novo a qualquer momento.';
+        botao.remove();
+      });
+    }
+  </script>
+</body>
+</html>
