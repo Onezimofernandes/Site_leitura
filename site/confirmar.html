@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Confirmar leitura — Porção Diária</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel: #EDE4D0;
+    --papel-escuro: #E2D6BC;
+    --tinta: #2B2620;
+    --tinta-suave: #5B5347;
+    --vinho: #7A1F2B;
+    --vinho-escuro: #5E1620;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--papel);
+    color:var(--tinta);
+    font-family:"Source Serif 4", Georgia, serif;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .cartao{
+    max-width:480px;
+    width:100%;
+    background:var(--papel-escuro);
+    border-radius:2px;
+    padding:48px 40px;
+    box-shadow: 0 1px 2px rgba(43,38,32,0.08), 0 24px 48px -24px rgba(43,38,32,0.35);
+    text-align:center;
+  }
+  .eyebrow{
+    font-family:"Source Serif 4", serif;
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--vinho);
+    margin:0 0 12px;
+  }
+  h1{
+    font-family:"Fraunces", serif;
+    font-weight:600;
+    font-size:26px;
+    line-height:1.2;
+    margin:0 0 16px;
+  }
+  p{
+    font-size:16px;
+    line-height:1.6;
+    color:var(--tinta-suave);
+    margin:0 0 28px;
+  }
+  button{
+    font-family:"Source Serif 4", serif;
+    font-size:16px;
+    font-weight:600;
+    padding:13px 22px;
+    border:none;
+    border-radius:2px;
+    background:var(--vinho);
+    color:var(--papel);
+    cursor:pointer;
+  }
+  button:hover{ background:var(--vinho-escuro); }
+  button:disabled{ opacity:0.6; cursor:default; }
+</style>
+</head>
+<body>
+  <main class="cartao" id="cartao">
+    <p class="eyebrow" id="eyebrow">Controle de leitura</p>
+    <h1 id="titulo">Marcar a leitura de hoje como concluída?</h1>
+    <p id="texto">
+      Isso fica registrado como um dia lido no seu progresso do plano
+      de leitura anual.
+    </p>
+    <button id="botao-confirmar" type="button">Já li, marcar como concluída</button>
+  </main>
+
+  <script type="module">
+    import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+    // Mesmos valores usados em index.html e cancelar.html.
+    const SUPABASE_URL = "https://nsltgofwtuzwjmhpjsbi.supabase.co";
+    const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5zbHRnb2Z3dHV6d2ptaHBqc2JpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc3MzU4MzksImV4cCI6MjEwMzMxMTgzOX0.y3z1uNozPNNtF0XVZYEEIC4nic0QVbrokFNNVURj4Mg";
+
+    const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+    const titulo = document.getElementById('titulo');
+    const texto = document.getElementById('texto');
+    const botao = document.getElementById('botao-confirmar');
+
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('token');
+    const dia = params.get('dia');
+
+    if (!token || !dia) {
+      titulo.textContent = 'Link inválido.';
+      texto.textContent = 'Faltam informações no link para confirmar a leitura.';
+      botao.remove();
+    } else {
+      titulo.textContent = `Marcar a leitura do dia ${dia} como concluída?`;
+
+      botao.addEventListener('click', async () => {
+        botao.disabled = true;
+        botao.textContent = 'Marcando...';
+
+        const { error } = await supabase.rpc('confirmar_leitura', {
+          token_informado: token,
+          dia_informado: Number(dia),
+        });
+
+        if (error) {
+          texto.textContent = 'Não foi possível registrar agora. Tente de novo em instantes.';
+          botao.disabled = false;
+          botao.textContent = 'Já li, marcar como concluída';
+          return;
+        }
+
+        titulo.textContent = 'Leitura registrada!';
+        texto.textContent = 'Esse dia já conta no seu progresso do plano anual.';
+        botao.remove();
+      });
+    }
+  </script>
+</body>
+</html>
