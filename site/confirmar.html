@@ -98,16 +98,17 @@
     const texto = document.getElementById('texto');
     const botao = document.getElementById('botao-confirmar');
 
-    const params = new URLSearchParams(window.location.search);
+       const params = new URLSearchParams(window.location.search);
     const token = params.get('token');
     const dia = params.get('dia');
+    const data = params.get('data');
 
     if (!token || !dia) {
       titulo.textContent = 'Link inválido.';
       texto.textContent = 'Faltam informações no link para confirmar a leitura.';
       botao.remove();
     } else {
-      titulo.textContent = `Marcar a leitura do dia ${dia} como concluída?`;
+      titulo.textContent = `Confirmar a leitura do dia ${data || dia}?`;
 
       botao.addEventListener('click', async () => {
         botao.disabled = true;
