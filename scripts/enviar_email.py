@@ -35,7 +35,7 @@ BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 
-SITE_URL = "https://scripts-woad-seven.vercel.app/"  # ex: https://site-leitura.vercel.app, sem barra no final
+SITE_URL = "https://scripts-woad-seven.vercel.app"  # ex: https://site-leitura.vercel.app, sem barra no final
 
 MESES_PT = [
     "janeiro", "fevereiro", "março", "abril", "maio", "junho",
@@ -115,7 +115,9 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
                 f'{paragrafos_versiculos}'
             )
     return "\n".join(blocos)
-def montar_html_completo(referencia, corpo_html, link_cancelamento):
+
+
+def montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirmacao):
     return f"""\
 <html>
 <body style="margin:0;padding:0;background-color:#EDE4D0;">
@@ -133,8 +135,20 @@ def montar_html_completo(referencia, corpo_html, link_cancelamento):
               <h1 style="margin:0 0 30px;font-size:23px;line-height:1.3;color:#2B2620;
                          font-family:Georgia,'Times New Roman',serif;text-align:center;">
                 {referencia}
-              </h1>              
+              </h1>
               {corpo_html}
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:32px 0 8px;">
+                <tr>
+                  <td align="center">
+                    <a href="{link_confirmacao}"
+                       style="display:inline-block;padding:13px 26px;background-color:#7A1F2B;
+                              color:#EDE4D0;text-decoration:none;font-family:Arial,Helvetica,sans-serif;
+                              font-size:14px;font-weight:bold;border-radius:3px;">
+                      Já li, marcar como concluída
+                    </a>
+                  </td>
+                </tr>
+              </table>
               <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
                         font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
                 Você recebe este email porque se inscreveu para receber a leitura diária.
@@ -177,7 +191,7 @@ def buscar_inscritos():
     return [{"email": linha["email"], "token": linha["token"]} for linha in linhas]
 
 
-def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancelamento):
+def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancelamento, link_confirmacao):
     payload = {
         "sender": {
             "name": os.environ.get("BREVO_SENDER_NOME", "Porção Diária"),
@@ -185,7 +199,7 @@ def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancela
         },
         "to": [{"email": destinatario}],
         "subject": assunto,
-        "htmlContent": montar_html_completo(referencia, corpo_html, link_cancelamento),
+        "htmlContent": montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirmacao),
     }
     req = urllib.request.Request(
         "https://api.brevo.com/v3/smtp/email",
@@ -223,7 +237,10 @@ def main():
     falhas = 0
     for inscrito in inscritos:
         link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
-        status = enviar_via_brevo(inscrito["email"], assunto, referencia, texto_html, link_cancelamento)
+        link_confirmacao = f"{SITE_URL}/confirmar.html?token={inscrito['token']}&dia={entrada_do_dia['dia']}"
+        status = enviar_via_brevo(
+            inscrito["email"], assunto, referencia, texto_html, link_cancelamento, link_confirmacao
+        )
         if status is None:
             falhas += 1
 
