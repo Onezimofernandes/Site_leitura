@@ -98,7 +98,7 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
             fatia = versiculos_do_capitulo[inicio - 1: fim]
             paragrafos_versiculos = "\n".join(
                 f'<p style="margin:0 0 14px;font-family:Georgia,\'Times New Roman\',serif;'
-                f'font-size:17px;line-height:1.8;color:#2B2620;">'
+                f'font-size:17px;line-height:1.8;color:#2B2620;text-align:justify;">'
                 f'<sup style="font-size:11px;line-height:0;color:#9c8f7a;'
                 f'margin-right:5px;">{inicio + i}</sup>{v}</p>'
                 for i, v in enumerate(fatia)
@@ -111,12 +111,10 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
 
             blocos.append(
                 f'<h2 style="margin:28px 0 10px;font-family:Georgia,\'Times New Roman\',serif;'
-                f'font-size:15px;font-weight:600;letter-spacing:0.02em;color:#7A1F2B;">{titulo}</h2>'
+                f'font-size:15px;font-weight:600;letter-spacing:0.02em;color:#7A1F2B;text-align:center;">{titulo}</h2>'
                 f'{paragrafos_versiculos}'
             )
     return "\n".join(blocos)
-
-
 def montar_html_completo(referencia, corpo_html, link_cancelamento):
     return f"""\
 <html>
@@ -129,13 +127,13 @@ def montar_html_completo(referencia, corpo_html, link_cancelamento):
           <tr>
             <td style="padding:40px 36px 32px;font-family:Georgia,'Times New Roman',serif;">
               <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;
-                        letter-spacing:0.14em;text-transform:uppercase;color:#7A1F2B;">
+                        letter-spacing:0.14em;text-transform:uppercase;color:#7A1F2B;text-align:center;">
                 Porção de hoje
               </p>
               <h1 style="margin:0 0 30px;font-size:23px;line-height:1.3;color:#2B2620;
-                         font-family:Georgia,'Times New Roman',serif;">
+                         font-family:Georgia,'Times New Roman',serif;text-align:center;">
                 {referencia}
-              </h1>
+              </h1>              
               {corpo_html}
               <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
                         font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
