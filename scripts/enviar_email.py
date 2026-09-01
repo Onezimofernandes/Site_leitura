@@ -46,6 +46,8 @@ MESES_PT = [
 def formatar_data_pt(data: datetime.date) -> str:
     return f"{data.day} de {MESES_PT[data.month - 1]} de {data.year}"
 
+def formatar_data_barra(data: datetime.date) -> str:
+    return data.strftime("%d/%m/%Y")
 
 FUSO_HORARIO = datetime.timezone(datetime.timedelta(hours=-3))  # America/Fortaleza, sem horário de verão
 
@@ -237,9 +239,9 @@ def main():
     falhas = 0
     for inscrito in inscritos:
         link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
-        link_confirmacao = f"{SITE_URL}/confirmar.html?token={inscrito['token']}&dia={entrada_do_dia['dia']}"
-        status = enviar_via_brevo(
-            inscrito["email"], assunto, referencia, texto_html, link_cancelamento, link_confirmacao
+                link_confirmacao = (
+            f"{SITE_URL}/confirmar.html?token={inscrito['token']}"
+            f"&dia={entrada_do_dia['dia']}&data={formatar_data_barra(hoje)}"
         )
         if status is None:
             falhas += 1
