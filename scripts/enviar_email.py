@@ -35,7 +35,9 @@ BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 
-SITE_URL = "https://scripts-woad-seven.vercel.app"  # ex: https://site-leitura.vercel.app, sem barra no final
+SITE_URL = "COLOQUE_A_URL_DO_SEU_SITE_NA_VERCEL"  # ex: https://site-leitura.vercel.app, sem barra no final
+
+LIMITE_DIAS_PENDENTES_PARA_SUSPENDER = 6
 
 MESES_PT = [
     "janeiro", "fevereiro", "março", "abril", "maio", "junho",
@@ -46,16 +48,25 @@ MESES_PT = [
 def formatar_data_pt(data: datetime.date) -> str:
     return f"{data.day} de {MESES_PT[data.month - 1]} de {data.year}"
 
+
 def formatar_data_barra(data: datetime.date) -> str:
     return data.strftime("%d/%m/%Y")
+
 
 FUSO_HORARIO = datetime.timezone(datetime.timedelta(hours=-3))  # America/Fortaleza, sem horário de verão
 
 
+def dia_do_plano_para_data(data: datetime.date) -> int:
+    inicio_do_ano = datetime.date(data.year, 1, 1)
+    return (data - inicio_do_ano).days + 1
+
+
 def dia_do_plano(hoje: datetime.date) -> int:
-    inicio_do_ano = datetime.date(hoje.year, 1, 1)
-    dia = (hoje - inicio_do_ano).days + 1
-    return min(dia, 365)  # dia 366 em ano bissexto repete o último dia
+    return min(dia_do_plano_para_data(hoje), 365)  # dia 366 em ano bissexto repete o último dia
+
+
+def data_do_dia_do_plano(dia_do_plano_num: int, ano: int) -> datetime.date:
+    return datetime.date(ano, 1, 1) + datetime.timedelta(days=dia_do_plano_num - 1)
 
 
 def carregar_plano():
@@ -119,7 +130,7 @@ def montar_texto_do_dia(entrada_do_dia, indice_livros):
     return "\n".join(blocos)
 
 
-def montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirmacao):
+def montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirmacao, bloco_pendencias):
     return f"""\
 <html>
 <body style="margin:0;padding:0;background-color:#EDE4D0;">
@@ -151,11 +162,48 @@ def montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirm
                   </td>
                 </tr>
               </table>
+              {bloco_pendencias}
               <p style="margin:40px 0 0;padding-top:20px;border-top:1px solid rgba(43,38,32,0.15);
                         font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.6;color:#5B5347;">
                 Você recebe este email porque se inscreveu para receber a leitura diária.
                 <a href="{link_cancelamento}" style="color:#5B5347;">Clique aqui para cancelar a inscrição.</a>
               </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
+def montar_html_completo_suspenso(bloco_pendencias):
+    return f"""\
+<html>
+<body style="margin:0;padding:0;background-color:#EDE4D0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EDE4D0;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;width:100%;background-color:#FFFDF7;border-radius:6px;">
+          <tr>
+            <td style="padding:40px 36px 32px;font-family:Georgia,'Times New Roman',serif;">
+              <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                        letter-spacing:0.14em;text-transform:uppercase;color:#7A1F2B;text-align:center;">
+                Envio suspenso
+              </p>
+              <h1 style="margin:0 0 20px;font-size:22px;line-height:1.3;color:#2B2620;
+                         font-family:Georgia,'Times New Roman',serif;text-align:center;">
+                A leitura diária está pausada
+              </h1>
+              <p style="margin:0 0 8px;font-size:16px;line-height:1.7;color:#2B2620;">
+                Você acumulou {LIMITE_DIAS_PENDENTES_PARA_SUSPENDER} dias de leitura sem
+                confirmar, então os envios diários foram pausados. Confirme os dias pendentes
+                abaixo (usando os links dos emails que já recebeu, se precisar de mais deles)
+                para o envio voltar a partir de amanhã.
+              </p>
+              {bloco_pendencias}
             </td>
           </tr>
         </table>
@@ -183,17 +231,82 @@ def referencia_curta(entrada_do_dia):
 
 
 def buscar_inscritos():
-    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/inscritos?select=email,token&confirmado=eq.true"
+    url = (
+        os.environ["SUPABASE_URL"].rstrip("/")
+        + "/rest/v1/inscritos?select=email,token,criado_em&confirmado=eq.true"
+    )
     req = urllib.request.Request(url, headers={
         "apikey": os.environ["SUPABASE_SERVICE_KEY"],
         "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
     })
     with urllib.request.urlopen(req, timeout=30) as resp:
         linhas = json.loads(resp.read().decode("utf-8"))
-    return [{"email": linha["email"], "token": linha["token"]} for linha in linhas]
+    return [
+        {"email": linha["email"], "token": linha["token"], "criado_em": linha["criado_em"]}
+        for linha in linhas
+    ]
 
 
-def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancelamento, link_confirmacao):
+def buscar_confirmacoes():
+    """Retorna {email: {dias confirmados}} para todo mundo, numa única
+    consulta (mais barato que uma consulta por inscrito)."""
+    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/leituras_confirmadas?select=email,dia"
+    req = urllib.request.Request(url, headers={
+        "apikey": os.environ["SUPABASE_SERVICE_KEY"],
+        "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
+    })
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        linhas = json.loads(resp.read().decode("utf-8"))
+    confirmacoes = {}
+    for linha in linhas:
+        confirmacoes.setdefault(linha["email"], set()).add(linha["dia"])
+    return confirmacoes
+
+
+def calcular_dias_pendentes(email, criado_em_iso, dia_atual, confirmacoes, fuso):
+    data_cadastro = (
+        datetime.datetime.fromisoformat(criado_em_iso.replace("Z", "+00:00"))
+        .astimezone(fuso)
+        .date()
+    )
+    dia_inicio = max(1, dia_do_plano_para_data(data_cadastro))
+    dias_confirmados = confirmacoes.get(email, set())
+    return [d for d in range(dia_inicio, dia_atual) if d not in dias_confirmados]
+
+
+def montar_bloco_pendencias(dias_pendentes, token, ano, site_url):
+    if not dias_pendentes:
+        return ""
+
+    MAX_LINKS = 5
+    recentes = sorted(dias_pendentes, reverse=True)[:MAX_LINKS]
+    itens_html = []
+    for dia_num in recentes:
+        data_str = formatar_data_barra(data_do_dia_do_plano(dia_num, ano))
+        link = f"{site_url}/confirmar.html?token={token}&dia={dia_num}&data={data_str}"
+        itens_html.append(
+            f'<a href="{link}" style="color:#7A1F2B;text-decoration:underline;">{data_str}</a>'
+        )
+    lista_html = ", ".join(itens_html)
+
+    restante = len(dias_pendentes) - len(recentes)
+    nota_restante = f" e mais {restante} dia(s) anterior(es)" if restante > 0 else ""
+
+    return f"""
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                     style="margin:24px 0 0;background-color:#F3ECDD;border-radius:4px;">
+                <tr>
+                  <td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;
+                             font-size:13px;line-height:1.6;color:#5B5347;">
+                    Você ainda não confirmou a leitura de: {lista_html}{nota_restante}.
+                    Após {LIMITE_DIAS_PENDENTES_PARA_SUSPENDER} dias pendentes acumulados,
+                    o envio diário fica suspenso até você confirmar os dias em atraso.
+                  </td>
+                </tr>
+              </table>"""
+
+
+def enviar_via_brevo(destinatario, assunto, html_final):
     payload = {
         "sender": {
             "name": os.environ.get("BREVO_SENDER_NOME", "Porção Diária"),
@@ -201,7 +314,7 @@ def enviar_via_brevo(destinatario, assunto, referencia, corpo_html, link_cancela
         },
         "to": [{"email": destinatario}],
         "subject": assunto,
-        "htmlContent": montar_html_completo(referencia, corpo_html, link_cancelamento, link_confirmacao),
+        "htmlContent": html_final,
     }
     req = urllib.request.Request(
         "https://api.brevo.com/v3/smtp/email",
@@ -234,15 +347,29 @@ def main():
     assunto = f"Leitura Bíblica, {formatar_data_pt(hoje)}"
 
     inscritos = buscar_inscritos()
+    confirmacoes = buscar_confirmacoes()
     print(f"Dia {entrada_do_dia['dia']} ({referencia}): enviando para {len(inscritos)} inscritos.")
 
     falhas = 0
     for inscrito in inscritos:
-        link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
-        link_confirmacao = (
-            f"{SITE_URL}/confirmar.html?token={inscrito['token']}"
-            f"&dia={entrada_do_dia['dia']}&data={formatar_data_barra(hoje)}"
+        dias_pendentes = calcular_dias_pendentes(
+            inscrito["email"], inscrito["criado_em"], entrada_do_dia["dia"], confirmacoes, FUSO_HORARIO
         )
+        bloco_pendencias = montar_bloco_pendencias(dias_pendentes, inscrito["token"], hoje.year, SITE_URL)
+
+        if len(dias_pendentes) >= LIMITE_DIAS_PENDENTES_PARA_SUSPENDER:
+            assunto_final = "Leitura Bíblica: envio suspenso até confirmar dias pendentes"
+            html_final = montar_html_completo_suspenso(bloco_pendencias)
+        else:
+            link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
+            link_confirmacao = (
+                f"{SITE_URL}/confirmar.html?token={inscrito['token']}"
+                f"&dia={entrada_do_dia['dia']}&data={formatar_data_barra(hoje)}"
+            )
+            assunto_final = assunto
+            html_final = montar_html_completo(referencia, texto_html, link_cancelamento, link_confirmacao, bloco_pendencias)
+
+        status = enviar_via_brevo(inscrito["email"], assunto_final, html_final)
         if status is None:
             falhas += 1
 
