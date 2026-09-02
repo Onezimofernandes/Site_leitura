@@ -239,7 +239,7 @@ def main():
     falhas = 0
     for inscrito in inscritos:
         link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
-                link_confirmacao = (
+        link_confirmacao = (
             f"{SITE_URL}/confirmar.html?token={inscrito['token']}"
             f"&dia={entrada_do_dia['dia']}&data={formatar_data_barra(hoje)}"
         )
