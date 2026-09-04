@@ -30,7 +30,7 @@ import urllib.error
 # aos detentores de cada tradução, então isso serve para uso não
 # comercial como este projeto, mas não é du domínio público
 # incontestável. Troque a URL abaixo se optar por outra versão/fonte.
-BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/aa.json"
+BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/nvi.json"
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
