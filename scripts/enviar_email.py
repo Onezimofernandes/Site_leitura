@@ -38,6 +38,7 @@ PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 SITE_URL = "https://scripts-woad-seven.vercel.app"  # ex: https://site-leitura.vercel.app, sem barra no final
 
 LIMITE_DIAS_PENDENTES_PARA_SUSPENDER = 6
+LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO = 3
 
 MESES_PT = [
     "janeiro", "fevereiro", "março", "abril", "maio", "junho",
@@ -214,6 +215,54 @@ def montar_html_completo_suspenso(bloco_pendencias):
 </html>"""
 
 
+def montar_html_confirmacao_cadastro(link_confirmacao):
+    return f"""\
+<html>
+<body style="margin:0;padding:0;background-color:#EDE4D0;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EDE4D0;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"
+               style="max-width:600px;width:100%;background-color:#FFFDF7;border-radius:6px;">
+          <tr>
+            <td style="padding:40px 36px 32px;font-family:Georgia,'Times New Roman',serif;text-align:center;">
+              <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                        letter-spacing:0.14em;text-transform:uppercase;color:#7A1F2B;">
+                Confirmação de cadastro
+              </p>
+              <h1 style="margin:0 0 20px;font-size:22px;line-height:1.3;color:#2B2620;
+                         font-family:Georgia,'Times New Roman',serif;">
+                Confirme sua inscrição
+              </h1>
+              <p style="margin:0 0 28px;font-size:16px;line-height:1.7;color:#2B2620;text-align:left;">
+                Alguém (esperamos que você mesmo) cadastrou este email para
+                receber a leitura bíblica diária. Se foi você, confirme
+                abaixo. Se não foi, ignore este email: o cadastro é
+                removido automaticamente em {LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO}
+                dias sem confirmação, e você não vai receber mais nada.
+              </p>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center">
+                    <a href="{link_confirmacao}"
+                       style="display:inline-block;padding:13px 26px;background-color:#7A1F2B;
+                              color:#EDE4D0;text-decoration:none;font-family:Arial,Helvetica,sans-serif;
+                              font-size:14px;font-weight:bold;border-radius:3px;">
+                      Confirmar inscrição
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>"""
+
+
 def referencia_curta(entrada_do_dia):
     partes = []
     for leitura in entrada_do_dia["leituras"]:
@@ -228,6 +277,64 @@ def referencia_curta(entrada_do_dia):
                 refs_do_livro.append(str(num_cap))
         partes.append(f"{leitura['livro']} {', '.join(refs_do_livro)}")
     return "; ".join(partes)
+
+
+def buscar_pendentes_confirmacao_cadastro():
+    """Quem se cadastrou mas ainda não confirmou, e ainda não recebeu
+    o convite de confirmação (para não mandar de novo todo dia)."""
+    url = (
+        os.environ["SUPABASE_URL"].rstrip("/")
+        + "/rest/v1/inscritos?select=email,token"
+        + "&confirmado=eq.false&confirmacao_enviada_em=is.null"
+    )
+    req = urllib.request.Request(url, headers={
+        "apikey": os.environ["SUPABASE_SERVICE_KEY"],
+        "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
+    })
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def marcar_convite_enviado(token):
+    url = os.environ["SUPABASE_URL"].rstrip("/") + f"/rest/v1/inscritos?token=eq.{token}"
+    req = urllib.request.Request(
+        url,
+        data=json.dumps({"confirmacao_enviada_em": datetime.datetime.now(datetime.timezone.utc).isoformat()}).encode("utf-8"),
+        headers={
+            "apikey": os.environ["SUPABASE_SERVICE_KEY"],
+            "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
+            "Content-Type": "application/json",
+            "Prefer": "return=minimal",
+        },
+        method="PATCH",
+    )
+    with urllib.request.urlopen(req, timeout=30):
+        pass
+
+
+def limpar_cadastros_nao_confirmados():
+    """Apaga quem nunca confirmou o cadastro depois do prazo. Evita
+    tanto lixo acumulado quanto ficar reenviando convite pra sempre
+    para um email que não pediu."""
+    limite = (
+        datetime.datetime.now(datetime.timezone.utc)
+        - datetime.timedelta(days=LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO)
+    ).isoformat()
+    url = (
+        os.environ["SUPABASE_URL"].rstrip("/")
+        + f"/rest/v1/inscritos?confirmado=eq.false&criado_em=lt.{limite}"
+    )
+    req = urllib.request.Request(
+        url,
+        headers={
+            "apikey": os.environ["SUPABASE_SERVICE_KEY"],
+            "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
+            "Prefer": "return=minimal",
+        },
+        method="DELETE",
+    )
+    with urllib.request.urlopen(req, timeout=30):
+        pass
 
 
 def buscar_inscritos():
@@ -349,6 +456,20 @@ def main():
     inscritos = buscar_inscritos()
     confirmacoes = buscar_confirmacoes()
     print(f"Dia {entrada_do_dia['dia']} ({referencia}): enviando para {len(inscritos)} inscritos.")
+
+    limpar_cadastros_nao_confirmados()
+
+    pendentes_confirmacao = buscar_pendentes_confirmacao_cadastro()
+    print(f"Convites de confirmação de cadastro a enviar: {len(pendentes_confirmacao)}.")
+    for pendente in pendentes_confirmacao:
+        link_confirmacao_cadastro = f"{SITE_URL}/confirmar-inscricao.html?token={pendente['token']}"
+        status_convite = enviar_via_brevo(
+            pendente["email"],
+            "Confirme sua inscrição na Porção Diária",
+            montar_html_confirmacao_cadastro(link_confirmacao_cadastro),
+        )
+        if status_convite is not None:
+            marcar_convite_enviado(pendente["token"])
 
     falhas = 0
     for inscrito in inscritos:
