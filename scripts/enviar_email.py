@@ -321,7 +321,7 @@ def limpar_cadastros_nao_confirmados():
         datetime.datetime.now(datetime.timezone.utc)
         - datetime.timedelta(days=LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO)
     ).isoformat()
-   url = (
+    url = (
         os.environ["SUPABASE_URL"].rstrip("/")
         + f"/rest/v1/inscritos?confirmado=eq.false&criado_em=lt.{urllib.parse.quote(limite, safe='')}"
     )
@@ -336,7 +336,6 @@ def limpar_cadastros_nao_confirmados():
     )
     with urllib.request.urlopen(req, timeout=30):
         pass
-
 
 def buscar_inscritos():
     url = (
