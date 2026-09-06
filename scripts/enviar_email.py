@@ -20,6 +20,7 @@ import json
 import datetime
 import urllib.request
 import urllib.error
+import urllib.parse
 
 # --- Configuração da fonte bíblica -----------------------------------
 # JSON público, um arquivo por versão, mantido em thiagobodruk/biblia.
@@ -320,9 +321,9 @@ def limpar_cadastros_nao_confirmados():
         datetime.datetime.now(datetime.timezone.utc)
         - datetime.timedelta(days=LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO)
     ).isoformat()
-    url = (
+   url = (
         os.environ["SUPABASE_URL"].rstrip("/")
-        + f"/rest/v1/inscritos?confirmado=eq.false&criado_em=lt.{limite}"
+        + f"/rest/v1/inscritos?confirmado=eq.false&criado_em=lt.{urllib.parse.quote(limite, safe='')}"
     )
     req = urllib.request.Request(
         url,
