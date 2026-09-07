@@ -36,7 +36,7 @@ BIBLIA_URL = "https://raw.githubusercontent.com/thiagobodruk/biblia/master/json/
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 
-SITE_URL = "https://site-leitura.vercel.app/"  # ex: https://site-leitura.vercel.app, sem barra no final
+SITE_URL = "leituraanualdabiblia.vercel.app/"  # ex: https://site-leitura.vercel.app, sem barra no final
 
 LIMITE_DIAS_PENDENTES_PARA_SUSPENDER = 6
 LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO = 3
