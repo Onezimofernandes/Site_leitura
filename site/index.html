@@ -217,9 +217,10 @@
 
   botao.disabled = true;
   botao.textContent = 'Enviando...';
+  const token = crypto.randomUUID();
+  const { error } = await supabase.from('inscritos').insert({ email, token });    
 
-  const { error } = await supabase.from('inscritos').insert({ email });
-
+  
       botao.disabled = false;
       botao.textContent = 'Quero receber';
 
@@ -234,8 +235,14 @@
       }
 
       form.reset();
-      mensagem.textContent = 'Quase lá! Enviaremos um convite para confirmação por email nas próximas 24h; confirme para começar a receber.';
+      mensagem.textContent = 'Quase lá! Enviamos um convite para confirmação por email ; confirme para começar a receber.';
       mensagem.classList.add('sucesso');
+      
+      fetch('/api/enviar-confirmacao', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, token }),
+      }).catch(() => {});
     });
   </script>
 </body>
