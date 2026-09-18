@@ -78,7 +78,7 @@
   <main class="cartao" id="cartao">
     <p class="eyebrow">Confirmação de cadastro</p>
     <h1 id="titulo">Confirmar sua inscrição?</h1>
-        <p id="texto">
+    <p id="texto">
       Só depois dessa confirmação você passa a receber a porção
       bíblica diária. Se você não pediu essa inscrição, é só ignorar
       esta página: o cadastro é removido automaticamente em alguns
@@ -90,12 +90,12 @@
                   border:1px solid rgba(43,38,32,0.25);border-radius:2px;background:var(--papel);
                   color:var(--tinta);margin-bottom:20px;box-sizing:border-box;" />
     <button id="botao-confirmar" type="button">Confirmar inscrição</button>
-     </main>
+  </main>
 
   <script type="module">
     import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-    // Mesmos valores usados em index.html, cancelar.html e confirmar.html.
+    // Mesmos valores usados em index.html e cancelar.html.
     const SUPABASE_URL = "https://nsltgofwtuzwjmhpjsbi.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_qWK7C4yC3q6k4tIcNxE83g_UQcAZn5L";
 
@@ -114,10 +114,19 @@
       botao.remove();
     } else {
       botao.addEventListener('click', async () => {
+        const nomeCompleto = document.getElementById('nome').value.trim();
+        if (!nomeCompleto) {
+          texto.textContent = 'Digite seu nome completo para confirmar.';
+          return;
+        }
+
         botao.disabled = true;
         botao.textContent = 'Confirmando...';
 
-        const { error } = await supabase.rpc('confirmar_cadastro', { token_informado: token });
+        const { error } = await supabase.rpc('confirmar_cadastro', {
+          token_informado: token,
+          nome_completo_informado: nomeCompleto,
+        });
 
         if (error) {
           texto.textContent = 'Não foi possível confirmar agora. Tente de novo em instantes.';
@@ -129,6 +138,8 @@
         titulo.textContent = 'Inscrição confirmada!';
         texto.textContent = 'A partir de amanhã você começa a receber a porção bíblica diária.';
         botao.remove();
+        document.getElementById('nome').remove();
+        document.querySelector('label[for="nome"]').remove();
       });
     }
   </script>
