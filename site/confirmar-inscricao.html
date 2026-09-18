@@ -78,14 +78,19 @@
   <main class="cartao" id="cartao">
     <p class="eyebrow">Confirmação de cadastro</p>
     <h1 id="titulo">Confirmar sua inscrição?</h1>
-    <p id="texto">
+        <p id="texto">
       Só depois dessa confirmação você passa a receber a porção
       bíblica diária. Se você não pediu essa inscrição, é só ignorar
       esta página: o cadastro é removido automaticamente em alguns
       dias sem confirmação.
     </p>
+    <label for="nome" style="display:block;text-align:left;font-size:13px;color:var(--tinta-suave);margin-bottom:6px;">Seu nome completo</label>
+    <input id="nome" name="nome" type="text" placeholder="Nome completo" required autocomplete="name"
+           style="width:100%;font-family:'Source Serif 4', serif;font-size:16px;padding:12px 14px;
+                  border:1px solid rgba(43,38,32,0.25);border-radius:2px;background:var(--papel);
+                  color:var(--tinta);margin-bottom:20px;box-sizing:border-box;" />
     <button id="botao-confirmar" type="button">Confirmar inscrição</button>
-  </main>
+     </main>
 
   <script type="module">
     import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
