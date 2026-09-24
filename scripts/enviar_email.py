@@ -39,6 +39,7 @@ PLANO_PATH = os.path.join(RAIZ, "data", "plano_leitura.json")
 SITE_URL = "leituraanualdabiblia.vercel.app/"  # ex: https://site-leitura.vercel.app, sem barra no final
 
 LIMITE_DIAS_PENDENTES_PARA_SUSPENDER = 6
+LIMITE_AVISOS_SUSPENSAO_ANTES_DE_BLOQUEAR = 5
 LIMITE_DIAS_PARA_CONFIRMAR_CADASTRO = 3
 
 MESES_PT = [
@@ -340,7 +341,7 @@ def limpar_cadastros_nao_confirmados():
 def buscar_inscritos():
     url = (
         os.environ["SUPABASE_URL"].rstrip("/")
-        + "/rest/v1/inscritos?select=email,token,criado_em&confirmado=eq.true"
+        + "/rest/v1/inscritos?select=email,token,criado_em,avisos_suspensao_enviados&confirmado=eq.true"
     )
     req = urllib.request.Request(url, headers={
         "apikey": os.environ["SUPABASE_SERVICE_KEY"],
@@ -349,9 +350,30 @@ def buscar_inscritos():
     with urllib.request.urlopen(req, timeout=30) as resp:
         linhas = json.loads(resp.read().decode("utf-8"))
     return [
-        {"email": linha["email"], "token": linha["token"], "criado_em": linha["criado_em"]}
+        {
+            "email": linha["email"],
+            "token": linha["token"],
+            "criado_em": linha["criado_em"],
+            "avisos_suspensao_enviados": linha["avisos_suspensao_enviados"],
+        }
         for linha in linhas
     ]
+
+def atualizar_avisos_suspensao(token, novo_valor):
+    url = os.environ["SUPABASE_URL"].rstrip("/") + f"/rest/v1/inscritos?token=eq.{token}"
+    req = urllib.request.Request(
+        url,
+        data=json.dumps({"avisos_suspensao_enviados": novo_valor}).encode("utf-8"),
+        headers={
+            "apikey": os.environ["SUPABASE_SERVICE_KEY"],
+            "Authorization": "Bearer " + os.environ["SUPABASE_SERVICE_KEY"],
+            "Content-Type": "application/json",
+            "Prefer": "return=minimal",
+        },
+        method="PATCH",
+    )
+    with urllib.request.urlopen(req, timeout=30):
+        pass
 
 
 def buscar_confirmacoes():
@@ -473,31 +495,48 @@ def main():
 
     falhas = 0
     for inscrito in inscritos:
+        for inscrito in inscritos:
         dias_pendentes = calcular_dias_pendentes(
             inscrito["email"], inscrito["criado_em"], entrada_do_dia["dia"], confirmacoes, FUSO_HORARIO
         )
-        bloco_pendencias = montar_bloco_pendencias(dias_pendentes, inscrito["token"], hoje.year, SITE_URL)
+        avisos_ja_enviados = inscrito["avisos_suspensao_enviados"]
 
         if len(dias_pendentes) >= LIMITE_DIAS_PENDENTES_PARA_SUSPENDER:
-            assunto_final = "Leitura Bíblica: envio suspenso até confirmar dias pendentes"
-            html_final = montar_html_completo_suspenso(bloco_pendencias)
+            if avisos_ja_enviados >= LIMITE_AVISOS_SUSPENSAO_ANTES_DE_BLOQUEAR:
+                # Bloqueio completo: já avisou o suficiente, não manda mais nada.
+                continue
+
+            bloco_pendencias = montar_bloco_pendencias(dias_pendentes, inscrito["token"], hoje.year, SITE_URL)
+            status = enviar_via_brevo(
+                inscrito["email"],
+                "Leitura Bíblica: envio suspenso até confirmar dias pendentes",
+                montar_html_completo_suspenso(bloco_pendencias),
+            )
+            if status is not None:
+                atualizar_avisos_suspensao(inscrito["token"], avisos_ja_enviados + 1)
+            else:
+                falhas += 1
         else:
+            if avisos_ja_enviados != 0:
+                # Voltou a ficar em dia: zera o contador para não herdar
+                # histórico velho se atrasar de novo no futuro.
+                atualizar_avisos_suspensao(inscrito["token"], 0)
+
+            bloco_pendencias = montar_bloco_pendencias(dias_pendentes, inscrito["token"], hoje.year, SITE_URL)
             link_cancelamento = f"{SITE_URL}/cancelar.html?token={inscrito['token']}"
             link_confirmacao = (
                 f"{SITE_URL}/confirmar.html?token={inscrito['token']}"
                 f"&dia={entrada_do_dia['dia']}&data={formatar_data_barra(hoje)}"
             )
-            assunto_final = assunto
             html_final = montar_html_completo(referencia, texto_html, link_cancelamento, link_confirmacao, bloco_pendencias)
-
-        status = enviar_via_brevo(inscrito["email"], assunto_final, html_final)
-        if status is None:
-            falhas += 1
+            status = enviar_via_brevo(inscrito["email"], assunto, html_final)
+            if status is None:
+                falhas += 1
 
     print(f"Concluído. Falhas: {falhas}/{len(inscritos)}.")
     if inscritos and falhas == len(inscritos):
-        sys.exit(1)  # todos falharam: marca o job como erro para gerar alerta
+        sys.exit(1)
 
-
+    
 if __name__ == "__main__":
     main()
