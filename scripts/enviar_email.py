@@ -495,9 +495,8 @@ def main():
 
     falhas = 0
     for inscrito in inscritos:
-        for inscrito in inscritos:
         dias_pendentes = calcular_dias_pendentes(
-            inscrito["email"], inscrito["criado_em"], entrada_do_dia["dia"], confirmacoes, FUSO_HORARIO
+        inscrito["email"], inscrito["criado_em"], entrada_do_dia["dia"], confirmacoes, FUSO_HORARIO
         )
         avisos_ja_enviados = inscrito["avisos_suspensao_enviados"]
 
